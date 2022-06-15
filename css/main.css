@@ -1,0 +1,497 @@
+html {
+    font-size: 62.5%;
+    /* line-height: 1.6rem; */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 90px;
+    background-color: rgb(177, 152, 235);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.logo {
+    width: 18rem;
+    border: 8px solid rgb(189, 152, 97) ;
+}
+
+.nav-right a {
+    margin: 0 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(57, 55, 55);
+    text-decoration: none;
+}
+
+.nav-right a:hover {
+    color: rgb(151, 93, 23);
+}
+
+
+.nav-right ,
+.logo {
+    font-size: 14px;
+    margin: 30px;
+}
+
+.nav-right a:last-child {
+    width: 13rem;
+    height: 4rem;
+    background-color: aquamarine;
+    padding: 12px 24px;
+    border-radius: 15px;
+}
+
+/* main first */
+.first {
+    display: flex;
+    width: 100%;
+    padding: 10rem 0 ;
+    background-color: beige;
+}
+
+
+.first-left {
+    flex: 1;
+    margin-right: 10rem;
+    margin-left: 4rem;
+}
+
+.first-left div h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.first-left div p {
+    font-size: 2rem;
+    margin: 5rem 0;
+}
+
+.first-left div a {
+    background-color: rgb(248, 124, 0);
+    color: aliceblue;
+    height: rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
+.first-left div a:last-child:hover {
+    background-color: rgb(8, 106, 141);
+}
+
+.first-left div a:first-child:hover {
+    background-color: rgb(174, 105, 15);
+}
+
+.first-left div a:last-child{
+    margin-left: 2rem;
+    background-color: rgb(40, 155, 163);
+    color: rgb(0, 2, 3);
+
+}
+
+.first-left {
+    flex: 1;
+
+}
+
+.first-right{
+    flex: 1;
+}
+
+.first-right-image {
+    width: 90%;
+}
+
+
+.first-left-last {
+    display: flex;
+    margin: 10rem 0rem 0;
+    align-items: center;
+}
+
+.nav-left-image {
+    width: 20rem;
+}
+
+.nav-left-image img {
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: -2rem;
+    border: 5px solid aliceblue;
+}
+
+.nav-left-number{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-left-number span:first-child {
+    color: rgb(248, 124, 0);
+}
+
+.main-second{
+    margin: 7rem;
+}
+.main-child-header {
+    position: relative;
+    height: 15rem;
+    width: 100%;
+    text-align: center;
+}
+
+.main-child-header div:first-child {
+    font-size: 14px;
+    color:  rgb(248, 124, 0);
+    font-weight: 600;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.main-child-header div:last-child {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 2.5rem  0;
+    display: inline-block;
+}
+
+.main-second-step {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5rem;
+    grid-row-gap: 8rem;
+    align-items: center;
+}
+
+.main-second-step div img {
+    height: 30rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.main-second-step-word h3 {
+    font-size: 7rem;
+    font-weight: 700;
+    color: rgb(189, 187, 184);
+    margin: 0;
+}
+
+.main-second-step-word h4 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 5px 0 30px 0;
+}
+
+.main-second-step-word  p {
+    font-size: 1.6rem;
+    color: rgb(22, 18, 10);
+    margin: 0 6rem 0 0;
+    line-height: 3rem;
+}
+
+.main-second-step-image  {
+    position: relative;
+}
+
+.main-second-step-image div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-second-step-image div:first-child {
+    
+    width: 25rem;
+    height: 25rem;
+    background-color: rgb(244, 239, 233);
+    border-radius: 50%
+}
+
+.main-second-step-image div:nth-child(2) {
+    width: 19rem;
+    height: 19rem;
+    background-color: rgb(244, 230, 211);
+    border-radius: 50%
+}
+
+.main-second-step-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main-third {
+    width: 100%;
+    margin: 15rem 0 5rem 0;
+    padding-top: 8rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.main-third-discount {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-column-gap: 5rem;
+    grid-row-gap: 8rem;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.main-third-discount--- {
+    background-color: rgb(185, 247, 247);
+    position: relative;
+    border-radius: 15px;
+}
+
+.main-third-discount-dishes {
+    position: absolute;
+    width: 6rem;
+    height: 2.5rem;
+    background-color: rgb(218, 9, 9);
+    border-radius: 20px;
+    margin-top: 10px;
+    right: 10px;
+}
+
+.main-third-discount-dishes p{
+    margin: 0 auto;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main-third-discount-image {
+    width: 80%;
+    border-radius: 50%;
+    margin: 2rem 10%;
+}
+
+.main-third-discount-image:hover {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+.main-third-discount-name-icon{
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-third-discount-name-icon h3{
+    font-size: 2rem;
+    flex: 2;
+    margin: 0 0 0 8px;
+}
+
+.main-third-discount-icon {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.main-third-discount-dishes-price div:first-child{
+    margin: 3rem 0 0rem 2rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    text-decoration: line-through;
+    color: rgb(246, 8, 8);
+}
+
+.main-third-discount-dishes-price div:last-child{
+    margin: 0rem 0 0rem 2rem;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.main-fourth {
+    width: 100%;
+    padding: 10rem 0;
+    background-color: rgb(243, 240, 235);
+}
+
+.main-fourth-code {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-column-gap: 10rem;
+    align-items: center;
+    margin: 0 15rem;
+}
+
+.main-fourth-code-element{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+
+}
+
+.main-fourth-code-element--- img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.main-fourth-code-element---{
+    text-decoration: none;
+}
+
+.main-fourth-code-element--- div{
+    margin: 4rem 0 3rem 1.5rem;
+}
+
+.main-fourth-code-element--- h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+}
+
+.main-fourth-code-element--- p{
+    color: rgb(87, 177, 177);
+    font-size: 1.2rem;
+}
+
+
+
+
+
+.Try-free{
+    width: 75%;
+    background-color: #e67e22;
+    margin: 12.5%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.Try-free-left{
+    flex: 2;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    margin-right: 6rem;
+}
+
+.Try-free-left-top h2{
+    font-size: 3rem;
+    margin-top: 0rem;
+}
+
+.Try-free-left-top p{
+    font-size: 1.6rem;
+}
+
+.Try-free-left-input h4{
+    font-size: 1.6rem;
+    margin: 1.5rem 0 0.5rem 0 ;
+    
+}
+
+.Try-free-left-input{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.Try-free-left-input input{
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(236, 223, 223);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+
+.Try-free-left-input---{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Try-free-left-input-buttom{
+    height: 2rem;
+    width: 100%;
+    background-color: rgba(3, 3, 3, 0.5);
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: aliceblue;
+}
+
+.Try-free-left-input-buttom:hover{
+    background-color: #f7f7f7;
+    color: black;
+}
+
+.Try-free-left-input-buttom p{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.Try-free-right{
+    flex: 1.3;
+}
+
+.Try-free-right img{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* CSS FOODTER */
+
+.footer-main{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
+    margin: 8rem 12rem;
+}
+
+.footer-main-column1-logo{
+    width: 16rem;
+}
+
+.footer-main-column1-icon{
+    margin: 20px 0 35px 0;
+}
+
+.footer-main-column1-icon img{
+    width: 2.5rem;
+    margin-right: 10px;
+}
+
+.footer-main h4{
+    margin: 0 0 25px 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.footer-main div{
+    line-height: 2.5rem;
+}
