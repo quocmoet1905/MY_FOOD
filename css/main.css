@@ -466,6 +466,11 @@ header {
 
 /* CSS FOODTER */
 
+.footer{
+    background-color: rgb(123, 121, 121);
+    padding: 0.5rem 0;
+} 
+
 .footer-main{
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
