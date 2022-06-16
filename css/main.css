@@ -179,7 +179,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5rem;
-    grid-row-gap: 8rem;
+    grid-row-gap: 12rem;
     align-items: center;
 }
 
@@ -374,13 +374,13 @@ header {
 
 
 
-
 .Try-free{
+    border-radius: 10px;
     width: 75%;
     background-color: #e67e22;
     margin: 12.5%;
-    border-radius: 10px;
     display: flex;
+    box-sizing: border-box;
 }
 
 .Try-free-left{
@@ -440,6 +440,7 @@ header {
     cursor: pointer;
     border: 2px solid black;
     color: aliceblue;
+
 }
 
 .Try-free-left-input-buttom:hover{
@@ -458,7 +459,6 @@ header {
 }
 
 .Try-free-right img{
-    box-sizing: border-box;
     height: 100%;
     width: 100%;
 }
