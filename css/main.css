@@ -467,7 +467,7 @@ header {
 /* CSS FOODTER */
 
 .footer{
-    background-color: rgb(123, 121, 121);
+    background-color: rgb(131, 129, 129);
     padding: 0.5rem 0;
 } 
 
@@ -493,10 +493,19 @@ header {
 
 .footer-main h4{
     margin: 0 0 25px 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 2rem;
+    color: #000000;
+
 }
 
 .footer-main div{
     line-height: 2.5rem;
+    font-size: 1.3rem;
+    color: #f1f1f1;
+
+}
+
+.footer-main-column1 p{
+    color: #000000;
 }
