@@ -33,6 +33,7 @@ header div a:first-child{
 
 .logo {
     width: 18rem;
+    margin-left: 1rem;
     cursor: pointer;
     border: 8px solid rgb(189, 152, 97) ;
 }
@@ -54,7 +55,7 @@ header div a:first-child{
 .nav-right ,
 .logo {
     font-size: 14px;
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 .nav-right a:last-child {
@@ -324,7 +325,7 @@ header div a:first-child{
 }
 
 .main-third-discount-dishes-price div:first-child{
-    margin: 3rem 0 0rem 2rem;
+    margin: 0rem 0 0rem 2rem;
     font-size: 2rem;
     padding-bottom: 1rem;
     text-decoration:line-through;
@@ -354,7 +355,7 @@ header div a:first-child{
 }
 
 .main-fourth-code-element{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(178, 175, 175);
     border-radius: 15px;
     height: 100%;
 }
@@ -371,7 +372,7 @@ header div a:first-child{
 }
 
 .main-fourth-code-element--- div{
-    margin: 4rem 0 3rem 1.5rem;
+    margin: 0rem 0 2rem 1.5rem;
 }
 
 .main-fourth-code-element--- h3{
@@ -381,8 +382,9 @@ header div a:first-child{
 }
 
 .main-fourth-code-element--- p{
-    color: rgb(87, 177, 177);
+    color: rgba(143, 10, 10, 0.437);
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 
@@ -522,4 +524,172 @@ header div a:first-child{
 
 .footer-main-column1 p{
     color: #000000;
+}
+
+
+@media only screen and (max-width:740px)and (min-width:440px){
+    .nav-right {
+        display:flex;
+        display:none;
+    }
+    
+    .first {
+        display: block;
+        padding: 0;
+    }
+    .first-left-last{
+        margin: 3rem 0 5rem 0;
+    }
+    .first-right{
+        width: 70%;
+        margin: auto;
+    }
+    .first-left{
+        margin: 1rem
+    }
+    .main-second{
+        margin: 2rem;
+    }
+    .main-second-step{
+        display:flex;
+        flex-direction: column;
+        grid-row-gap:3rem;
+    }
+    .main-second-step-word p{
+        margin-right: 2rem;
+    }
+    .two{
+        flex:1;
+    }
+    .image02{
+        flex:2;
+    }
+    .main-second-step-image{
+        height: 300px;
+    }
+
+    .main-third-discount{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5rem;
+        grid-row-gap: 8rem;
+        align-items: center;
+        margin: 0 1rem;
+
+    }
+    
+    .main-fourth-code {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 4rem;
+        align-items: center;
+        margin: 0 4rem;
+    }
+    .Try-free{
+        width: 95%;
+        margin: 2.5%;
+        box-sizing: border-box;
+
+    }
+    .Try-free-right {
+        flex: 0;
+    }
+    .Try-free-left-input{
+        display: block;
+        max-width: 400px;
+    }
+    .Try-free-left-input-buttom{
+        margin-top: 3rem;
+    }
+    .footer-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3rem;
+        margin: 4rem 4rem;
+    }
+
+}
+
+
+@media only screen and (min-width:740px) and (max-width:1024px){
+    .nav-right {
+        display: nome;
+    }
+    
+    .nav-right a {
+        margin-left: 0;
+    }
+    .first {
+        display: block;
+        padding: 0rem;
+    }
+    .first-left{
+        margin-right: 4rem;
+    }
+    .first-left-last{
+        margin: 3rem 0 5rem 0;
+    }
+    .first-right{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .first-right-image{
+        margin: auto;
+    }
+    .logo{
+        /* display: none; */
+        width:16rem;
+    }
+    .main-second{
+        margin: 2rem;
+    }
+    .main-second-step{
+        grid-column-gap: 1rem;
+        grid-row-gap: 4rem;
+
+    }
+    .main-second-step-word p{
+        margin: 0;
+    }
+    .main-third-discount {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5rem;
+        grid-row-gap: 8rem;
+        align-items: center;
+        margin: 0 4rem;
+    }
+    .main-third-discount-image:hover{
+        width: 80%;
+        border-radius: 50%;
+        margin: 2rem 10%;
+    }
+    .main-fourth-code {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 4rem;
+        align-items: center;
+        margin: 0 4rem;
+    }
+    .Try-free-left-input input {
+        height: 2rem;
+        width: 80%;
+        background-color: rgb(236, 223, 223);
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .Try-free{
+        margin: 7.5%;
+        width: 85%;
+    }
+    .Try-free-left{
+        margin: 1rem;
+    }
+    .Try-free-left-input-buttom{
+        width: 80%;
+    }
+    .footer-main{
+        margin: 4rem;
+    }
 }
